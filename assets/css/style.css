@@ -5,9 +5,9 @@
 }
 body {
     background-image: url("/Users/dominicabogado/xmen/assignment1-portfolio/assets/images/circles-light.png");
-    width:960px;
     margin: 0 auto;
     padding:0px;
+    width: 960px;
 }
 
 .header {
@@ -49,8 +49,7 @@ a{
     background-color:#ffffff;
     padding: 20px;
     border-color: #dddddd;
-
-
+    width: 960px;
 }
 #mypicture {
     clear: both;
@@ -152,4 +151,7 @@ input{
     font-size:14px;
     line-height:15px;
 
+}
+#message{
+    width:100%;
 }
