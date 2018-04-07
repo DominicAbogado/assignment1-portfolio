@@ -9,39 +9,45 @@
 <body>
     <!-- Header -->
     <header>
-            <div class="header">
-                <div id="topname">
-                    <p id="name">Dominic Abogado</p>
-                </div>
-                <div id="nav">
-                    <p>
-                        <a href="#about">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </p>
-                </div>
+        <div class="header">
+            <div id="topname">
+                <p id="name">Dominic Abogado</p>
             </div>
-        </header>
-        <br>
-        <br>
+            <div id="nav">
+                <p>
+                    <a href="#about">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div id="maincontent">
+        <h2>Contact</h2>
+        <form>
+            <div id="email.name">
+                Name:
+                <br>
+                <input type="text" name="firstname" value="Your Name"> Email:
+                <br>
+                <input type="text" name="email" value="example@gmail.com">
+                <br>
+            </div>
 
-    <form>
-        Name:
-        <br>
-        <input type="text" name="firstname" value="Your Name">
-        <br> Email:
-        <br>
-        <input type="text" name="email" value="example@gmail.com">
-        <br>
+            <!--In case I need to edit this field later-->
+            <div id="message"></div>
+            Message:
+            <br>
+            <input type=text name="message">
+        </form>
 
-
-        <!--In case I need to edit this field later-->
-        Message:
-        <br>
-        <input type=text name="message">
-        <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="submit">
+    </div>
+    </div>
     </form>
+
 
     <div class="footer">Copyright</div>
 </body>

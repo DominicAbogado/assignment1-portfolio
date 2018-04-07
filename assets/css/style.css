@@ -107,6 +107,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    position: relative;
 }
 
 div.gallery:hover {
@@ -122,4 +123,33 @@ div.desc {
     padding: 15px;
     text-align: center;
     background-color:#4aaaa5;
+    color:#ffffff;
+    position: absolute;
+    bottom:10px;
+    width: 100%;
+}
+
+form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color:#4aaaa5;
+    padding:10px;
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#ffffff;
+    font-size:14px;
+    line-height:15px;
+
 }
