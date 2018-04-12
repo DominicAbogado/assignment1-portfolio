@@ -2,69 +2,72 @@
 <html>
 
 <head>
-
     <title>Dominic's Portfolio</title>
-    <!-- Link to your external CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header">
-            <div id="topname">
-                <p id="name">Dominic Abogado</p>
+    <header class="header">
+        <div id="innerheader">
+            <div class="nav" style="color: #cccccc">
+                <a class="nav-link active" target="_blank" href="#">About</a>
+                <a class="nav-link" target="_blank" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" target="_blank" href="contact.html">Contact</a>
             </div>
-            <div id="nav">
-                <p>
-                    <a target=_blank href="index.html">About</a>
-                    <a target=_blank href="portfolio.html">Portfolio</a>
-                    <a target=_blank href="contact.html">Contact</a>
-                </p>
-            </div>
+            <p id="myname">Dominic Abogado</p>
         </div>
+
+        <section id="maincontent">
+            <p id="aboutme">Portfolio</p>
+            <div id="uppercontent">
+                <div class="clearfix">
+                    <div id="mainphotocontain">
+                        <div id="photocontainer1">
+                            <a taget="_blank" href="assets/images/kittycat.jpg">
+                                <img src="assets/images/kittycat.jpg" alt="Kitty Cat">
+                            </a>
+                            <div class="desc">Hangman</div>
+                        </div>
+                        <div id="photocontainer1">
+                            <a taget="_blank" href="assets/images/city.jpg">
+                                <img src="assets/images/city.jpg" alt="RPG">
+                            </a>
+                            <div class="desc">RPG Game</div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div id="photocontainer1">
+                            <a taget="_blank" href="assets/images/plant">
+                                <img src="assets/images/plant.jpg" alt="plant">
+                            </a>
+                            <div class="desc">Trivia Game</div>
+                        </div>
+                        <div id="photocontainer1">
+                            <a taget="_blank" href="assets/images/nightlife.jpg">
+                                <img src="assets/images/nightlife.jpg" alt="Night">
+                            </a>
+                            <div class="desc">Rutgers Info Widget</div>
+                        </div>
+                    </div>
+                    <div id="photocontainer1">
+                        <a taget="_blank" href="assets/images/abstract.jpg">
+                            <img src="assets/images/abstract.jpg" alt="plant">
+                        </a>
+                        <div class="desc">Rock Paper Scissors</div>
+                    </div>
+                </div>
+        </section>
+
+        <footer>
+            <p id="copy">Copyright &copy;</p>
+        </footer>
+
+
     </header>
-    <br>
-    <br>
-
-    <div id="photocontent">
-            <div class="clearfix">
-            <div id="photocontainer1">
-                <a taget="_blank" href="assets/images/morathiwings.jpg">
-                    <img src="assets/images/morathiwings.jpg" alt="grad photo" width="100%" height="auto">
-                </a>
-                <div class="desc">Warhammer</div>
-            </div>
-            <div id="photocontainer1">
-                <a taget="_blank" href="assets/images/gradphoto.jpg">
-                    <img src="assets/images/gradphoto.jpg" alt="it blends in" width="100%" height="auto">
-                </a>
-                <div class="desc">Blending in</div>
-            </div>
-            <div id="photocontainer1">
-                <a taget="_blank" href="assets/images/dom_profile.jpg">
-                    <img src="assets/images/dom_profile.jpg" alt="My face" width="100%" height="auto">
-                </a>
-                <div class="desc">FaceBook</div>
-            </div>
-            </div>
-             <div id="photocontainer2">
-                <a taget="_blank" href="assets/images/scottscottscott.jpg">
-                    <img src="assets/images/scottscottscott.jpg" alt="Three Eyes" width="100%" height="auto">
-                </a>
-                <div class="desc">Filler</div>
-            </div>
-            <div id="photocontainer2">
-                <a taget="_blank" href="assets/images/scottscottscott.jpg">
-                    <img src="assets/images/scottscottscott.jpg" alt="Three Eyes" width="100%" height="auto">
-                </a>
-                <div class="desc">Three Eyes</div>
-            </div>
-        </div>
 
 
-    <div class="footer">Copyright</div>
 </body>
 
 </html>

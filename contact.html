@@ -7,49 +7,44 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header">
-            <div id="topname">
-                <p id="name">Dominic Abogado</p>
+    <header class="header">
+        <div id="innerheader">
+            <div class="nav" style="color: #cccccc">
+                <a class="nav-link active" target="_blank" href="#">About</a>
+                <a class="nav-link" target="_blank" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" target="_blank" href="contact.html">Contact</a>
             </div>
-            <div id="nav">
-                <p>
-                    <a target=_blank href="index.html">About</a>
-                    <a target=_blank href="portfolio.html">Portfolio</a>
-                    <a target=_blank href="contact.html">Contact</a>
-                </p>
-            </div>
+            <p id="myname">Dominic Abogado</p>
         </div>
-    </header>
-    <br>
-    <br>
-
-    <div id="maincontent">
-        <h2>Contact</h2>
-        <form>
-            <div id="email.name">
-                Name:
-                <br>
-                <input type="text" name="firstname" value="Your Name"> Email:
-                <br>
-                <input type="text" name="email" value="example@gmail.com">
-                <br>
+        <section id="maincontent">
+            <p id="aboutme">Contact</p>
+            <div id="uppercontent">
+                <form>
+                    <div class="cont">
+                        Name:
+                        <br>
+                        <input type="text" name="firstname" value="Your Name">
+                    </div>
+                    <div class="cont">
+                        Email:
+                        <br>
+                        <input type="text" name="email" value="example@gmail.com">
+                    </div>
+                    <div class="cont">
+                        Message:
+                        <br>
+                        <textarea placeholder='message' name="" id="cont-message" rows="10"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="submit-btn">Submit</button>
             </div>
-
-            <!--In case I need to edit this field later-->
-            <div id="message"></div>
-            Message:
-            <br>
-            <textarea placeholder='message' name="" id="message" cols="30" rows="10"></textarea>
-        </form>
-
-        <input type="submit" value="Submit" id="submit">
-    </div>
-    </form>
+        </section>
 
 
-    <div class="footer">Copyright</div>
+        <footer>
+            <p id="copy">Copyright &copy;</p>
+        </footer>
+    </header>
 </body>
 
 </html>
